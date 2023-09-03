@@ -22,8 +22,13 @@ a {
   color: var(--primary-color);
   font-size: 30px;
   text-decoration: none;
+  display: block;
+  text-align: center;
   border: var(--border);
   background-color: #aeccc6;
+  border-radius: 4px;
+  padding: 5px 5px;
+  margin: auto;
 }
 a:hover {
   color: #5a0c87;
