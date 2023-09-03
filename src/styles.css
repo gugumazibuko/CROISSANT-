@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #d59bf6;
+  --secondary-color: #8ef6e4;
+  --border: 1px solid #5a0c87;
+}
+body {
+  background: linear-gradient(
+    68.6deg,
+    rgb(252, 165, 241) 1.8%,
+    rgb(181, 255, 255) 100.5%
+  );
+}
+h1 {
+  color: azure;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+}
+a {
+  color: var(--primary-color);
+  font-size: 30px;
+  text-decoration: none;
+  border: var(--border);
+  background-color: #aeccc6;
+}
+a:hover {
+  color: #5a0c87;
+  background-color: #118a7e;
+}
